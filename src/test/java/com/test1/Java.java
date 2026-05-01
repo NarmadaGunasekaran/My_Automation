@@ -1,9 +1,12 @@
 package com.test1;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import org.example.BaseClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Java {
-
+public class Java extends BaseClass {
 
     @Test(priority = 0 , enabled = true )
     public void stringManipulationReverseProgram() {
